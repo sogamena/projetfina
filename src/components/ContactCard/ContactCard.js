@@ -6,7 +6,7 @@ import mess from "../../styles/icônes/icons8-courrier-48.png";
 const ContactCard = () => {
     const handleEmailClick = () => {
         window.location.href =
-          "mailto:adnanautov@gmail.com?subject=Subject%20Here&body=Your%20message%20here";
+          "mailto:tezraftarofficial@gmail.com?subject=Subject%20Here&body=Your%20message%20here";
       };
     
       const handleWhatsAppClick = () => {
