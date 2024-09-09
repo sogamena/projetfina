@@ -7,7 +7,7 @@
 
 .vehicle-detail{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .view{
     height: 35vw;

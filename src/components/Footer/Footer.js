@@ -31,7 +31,7 @@ const Footer = () => {
               <li>
                 <img className="ico" src={mess} alt="Mail Icon" />
                 <button className="btn-email" onClick={handleEmailClick}>
-                adnanautov@gmail.com
+                    tezraftarofficial@gmail.com
                 </button>
               </li>
             </ul>
