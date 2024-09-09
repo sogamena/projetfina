@@ -1,0 +1,62 @@
+.vehicle-detail h3{
+    margin-top: 6px;
+    color: rgb(0, 131, 131);
+    text-decoration: underline;
+
+}
+
+.vehicle-detail{
+    display: flex;
+    justify-content: space-around;
+}
+.view{
+    height: 35vw;
+    width: 60vw;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.vehicle-detail p{
+    margin-top: 3px;
+}
+
+.image-detail{
+    width: 50%;
+}
+.price{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.vehicle-detail h1{
+    font-size: 1.5vw;
+}
+
+.vehicle-detail .price{
+    color: rgb(0, 131, 131);
+}
+
+@media (max-width: 768px) {
+    .vehicle-detail{
+        display: block;
+    }
+
+    .view{
+        height: 45vw;
+        width: 100vw;
+        overflow: hidden;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        word-wrap: break-word;
+    }
+
+    .vehicle-detail h1{
+        font-size: 2.5vw;
+    }
+
+    p{
+        font-size: 2.3vw;
+    }
+
+  }
+  

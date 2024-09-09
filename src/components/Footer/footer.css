@@ -1,0 +1,67 @@
+footer {
+  margin-top: 80px;
+  background-color: #0c6527;
+  color: #d9d9d9;
+  padding: 40px 80px 40px 80px;
+}
+
+.pied{
+  margin-top: 2vw;
+}
+.d-flex {
+  display: flex;
+}
+.col-4 {
+  width: 30%;
+}
+.col-5 {
+  width: 50%;
+}
+.res-sociaux {
+  margin-top: 10px;
+}
+.res-sociaux img {
+  width: 20px;
+}
+li a:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.siege-social li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.siege-social li img {
+  margin-right: 20px;
+}
+.ico {
+  width: 25px;
+}
+.btn-email {
+  background-color: transparent;
+  border: none;
+  color: #d9d9d9;
+}
+.btn-email:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+@media screen and (max-width: 675px) {
+  .siege-social li img {
+    margin-right: 38px;
+    width: 15px;
+    margin-top:10px;
+}
+  footer {
+    font-size: 12px;
+    padding: 20px 25px 20px 25px;
+  }
+  .col-5 {
+    width: 70%;
+  }
+  .col-4 {
+    width: 30%;
+    display: none;
+  }
+}

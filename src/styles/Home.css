@@ -1,0 +1,222 @@
+/* .home-content {
+    background-image: url("../../public/images/home1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  } */
+  
+  .ico-search {
+    width: 28px !important;
+    margin-left: 10px;
+  }
+  @keyframes slideIn {
+    from {
+      left: -200px;
+      opacity: 0%;
+    }
+    to {
+      left: 0px;
+      opacity: 100%;
+    }
+  }
+  
+  .header {
+    width: auto;
+    height: 500px;
+    /* background-color: #2b87a05d; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    animation: slideIn 1.5s ease-in-out forwards;
+  }
+  .header p {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 85%;
+  }
+  .header main h1{
+    color: #121212;
+    text-align: center;
+    background-color: rgb(255 255 255 / 76%);
+    padding: 10px;
+  }
+  .header main span{
+    color: #16b245;
+  }
+  .btn-header {
+    cursor: pointer;
+    border: none;
+    background-color: rgb(252 219 22 / 74%);
+    color: #121212;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    width: 250px;
+    line-height: 1.5;
+    box-shadow: 0px 2px 5px 0px #3a3a3a;
+    font-family: Roboto;
+    transition: 0.3s;
+  }
+  .btn-header:hover {
+    background-color: #121212;
+    color: #16b245;
+  }
+  .latest-content , .direction{
+    padding-left:80px ;
+    padding-right: 80px;
+  }
+  .latest-content,.direction h2{
+    text-align: center;
+  }
+  .news-content{
+    /* display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between; */
+    grid-gap: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .cadre-new{
+    width: 300px;
+    height: 550px;
+    color: #101010;
+  }
+  .cadre-new p{
+    color: #101010;
+  }
+  .cadre-new-img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+  }
+  .photo-new{
+    width: 100%;
+    height: 100%;
+  }
+  .contenu-direction{
+    grid-gap: 10px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      height: auto;
+      flex-wrap: wrap;
+  }
+  .cadre-direction{
+    width: 220px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  .img-direction{
+    width: 100%;
+    height: 300px;
+    background-color: #121212;
+  }
+  .img-direction img{
+    width: 100%;
+    height: 100%;
+  }
+  .info-direction{
+    width: 100%;
+    padding: 10px;
+    height: 100px; 
+    text-align: center;
+  }
+  @media screen and (max-width: 575px) {
+    .latest-content .btn-more{
+      margin-top: 100px
+    }
+    .header p {
+      font-size: 15px;
+      padding: 10px;
+    }
+    .btn-header {
+      font-size: 16px;
+      padding: 10px;
+      width: 200px;
+    }
+  }
+  
+
+  .header-container {
+    position: relative;
+    width: 100%;
+    height: 80vh; /* Ajuste la hauteur selon tes besoins */
+    background-image: url('../../public/images/image/header.jpg'); /* Lien vers ton image */
+    background-size: cover; /* Assure que l'image couvre tout le conteneur */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .header-content {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Couche sombre pour améliorer la lisibilité */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .header-content h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .header-content p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .header-content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff5a5f;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .header-content button:hover {
+    background-color: #e04e4f;
+  }
+  
+  @media(max-width: 768px) {
+    .header-container {
+      height: 50vh; /* Réduit la hauteur sur les écrans plus petits */
+    }
+  
+    .header-content h1 {
+      font-size: 2rem;
+    }
+  
+    .header-content p {
+      font-size: 1rem;
+    }
+  
+    .header-content button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
