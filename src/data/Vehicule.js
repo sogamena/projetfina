@@ -387,7 +387,7 @@ const vehicles = [
   },
   {
     id: "10",
-    price: "Rs 296770",
+    price: "Rs 296000",
     name: "DECA",
     EngineType: "	4-Stroke, Spark-Ignition, Single Cylinder, Liquid-Cooled",
     image: "/images/image/deca_pm_front.PNG",
