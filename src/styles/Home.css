@@ -211,7 +211,7 @@
   @media(max-width: 768px) {
     .header-container {
       height: 50vh; /* Réduit la hauteur sur les écrans plus petits */
-      background-size: 25px 50px;
+      background-size: 2px 0px;
       background-size: 100% 70vw;
     }
   
