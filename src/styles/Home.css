@@ -154,6 +154,11 @@
     .cadre-new h2{
       font-size: 1.5vw;
     }
+
+    .cadre-new{
+      width: 30vw;
+      height: auto !important;
+    }
   }
   
 
