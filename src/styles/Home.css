@@ -211,9 +211,6 @@
   @media(max-width: 768px) {
     .header-container {
       height: 50vh; /* Réduit la hauteur sur les écrans plus petits */
-      background-size: 2px 0px;
-      background-size: 100% 60vw;
-      margin-bottom: 0;
     }
   
     .header-content h1 {
