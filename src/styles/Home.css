@@ -212,7 +212,7 @@
     .header-container {
       height: 50vh; /* Réduit la hauteur sur les écrans plus petits */
       background-size: 25px 50px;
-      background-size: 100% 80%;
+      background-size: 100% 70vw;
     }
   
     .header-content h1 {
