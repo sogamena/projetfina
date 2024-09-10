@@ -26,7 +26,7 @@ const ContactCard = () => {
               <li>
                 <img className="ico" src={mess} alt="Mail Icon" />
                 <button className="btn-email" onClick={handleEmailClick}>
-                    tezraftarofficial@gmail.com@gmail.com
+                    tezraftarofficial@gmail.com
                 </button>
               </li>
             </ul>
