@@ -94,7 +94,7 @@
   }
   .cadre-new{
     width: 20vw;
-    height: 15vw;
+    height: 25vw;
     color: #101010;
   }
   .cadre-new p{
@@ -160,8 +160,6 @@
       height: auto !important;
     }
   }
-  
-
   .header-container {
     position: relative;
     width: 100%;
